@@ -3,7 +3,7 @@
 {% block main%}
         <h1>¿Que haremos aca?</h1>
         <p>disfrutaremos de este almacen</p>
-        <img src="../static/images/image.png" alt="">
+        <img src="{{ url_for('static', path='image.png') }}" alt="">
         <div>
             <a href="/segundaEtapa" class="btn">atras</a>
             <a href="/" class="btn">INICIO</a>
